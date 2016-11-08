@@ -5,7 +5,7 @@
 	padding:0px;
 }
 body{
-	font-family:'Noto Sans Japanese', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
 	font-size:62.5%;
 	background-color:#fff;
 }
@@ -124,7 +124,7 @@ article.left1 ul li a:hover{
 }
 
 .fa-gratipay:before {
-  content: "\f108"; 
+  content: "\f108";
 }
 
 /*likeデザインここから*/

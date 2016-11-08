@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="Blue.xsl"?>
+<!--  generator="Inspyder Sitemap Creator 4.1.0"  -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd http://www.google.com/schemas/sitemap-mobile/1.0/sitemap-mobile.xsd http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>http://site-syuusyuu.com/</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/like-bottom.gif</image:loc>
+		<image:caption>&#227;Š&#230;&#176;—&#227;&#171;&#229;…&#165;&#227;‚Š</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/eba.jpg</image:loc>
+		<image:caption>EBA&#230;&#160;&#170;&#229;&#188;&#228;&#188;š&#231;&#164;&#190;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/eba-okyakusama.jpg</image:loc>
+		<image:caption>EBA&#230;&#160;&#170;&#229;&#188;&#228;&#188;š&#231;&#164;&#190;&#227;Š&#229;&#174;&#162;&#230;&#167;˜&#227;&#174;&#229;&#163;&#176;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/point.jpg</image:loc>
+		<image:caption>ADoopi&#227;ƒ&#227;‚&#164;&#227;ƒ&#179;&#227;ƒˆ&#227;‚&#181;&#227;ƒ&#188;&#227;ƒ“&#227;‚&#185;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/green.jpg</image:loc>
+		<image:caption>&#227;‚&#175;&#227;ƒ&#170;&#227;ƒ&#188;&#227;ƒ‰</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/green2.jpg</image:loc>
+		<image:caption>&#227;‚&#175;&#227;ƒ&#170;&#227;ƒ&#188;&#227;ƒ‰</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/manten.jpg</image:loc>
+		<image:caption>&#229;&#174;&#182;&#229;&#186;&#173;&#230;•™&#229;&#184;&#171;&#227;&#174;&#230;&#186;€&#231;‚&#185;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/misumi.jpg</image:loc>
+		<image:caption>MISUMI</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kojin.jpg</image:loc>
+		<image:caption>&#229;€‹&#228;&#186;&#186;&#230;ƒ…&#229;&#160;&#177;&#232;&#179;‡&#230;&#160;&#188;&#232;&#172;›&#229;&#186;&#167;&#230;&#161;ˆ&#229;†…</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kojinhogo.jpg</image:loc>
+		<image:caption>&#233;&#166;–&#233;ƒ&#189;&#229;œ&#227;‚&#179;&#227;ƒ&#179;&#227;ƒ”&#227;ƒ&#165;&#227;ƒ&#188;&#227;‚&#191;&#227;ƒ&#188;&#230;Š€&#232;&#161;“&#230;&#160;&#170;&#229;&#188;&#228;&#188;š&#231;&#164;&#190;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/hinin.jpg</image:loc>
+		<image:caption>OES</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/emuji.jpg</image:loc>
+		<image:caption>M&#229;&#173;—&#227;ƒ&#227;‚&#178;&#230;&#178;&#187;&#231;™‚&#232;–&#172;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kirakuza.jpg</image:loc>
+		<image:caption>&#230;&#176;—&#230;&#165;&#189;&#229;&#186;&#167;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kensetu.jpg</image:loc>
+		<image:caption>&#229;&#187;&#186;&#232;&#168;&#173;&#230;&#165;&#173;&#232;&#168;&#177;&#229;&#175;&#228;&#187;&#163;&#232;&#161;Œ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kourai.jpg</image:loc>
+		<image:caption>&#233;&#171;˜&#233;&#186;—&#228;&#186;&#186;&#229;‚&#227;‚&#181;&#227;ƒ—&#227;ƒ&#170;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/gno.jpg</image:loc>
+		<image:caption>GNO</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/hounan.jpg</image:loc>
+		<image:caption>&#230;–&#185;&#229;—&#231;”&#186;&#232;–&#172;&#229;&#177;€</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/best.jpg</image:loc>
+		<image:caption>BESTGAME</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/play.jpg</image:loc>
+		<image:caption>PLAYREPORT</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/medi.jpg</image:loc>
+		<image:caption>&#227;ƒ&#161;&#227;ƒ‡&#227;‚&#163;&#227;‚&#171;&#227;ƒ&#171;&#227;‚&#175;&#227;ƒƒ&#227;‚&#175;&#229;&#174;…&#233;&#163;Ÿ&#228;&#190;&#191;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kirali.jpg</image:loc>
+		<image:caption>KiRaLi Beauty</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/tomioka.jpg</image:loc>
+		<image:caption>&#229;…&#173;&#230;–&#185;&#233;Š€&#231;&#177;&#179;&#233;€š&#228;&#191;&#161;&#232;&#178;&#169;&#229;&#163;&#178;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/rentaru.jpg</image:loc>
+		<image:caption>&#227;ƒ&#172;&#227;ƒ&#179;&#227;‚&#191;&#227;ƒ&#171;&#227;‚&#170;&#227;ƒ•&#227;‚&#163;&#227;‚&#185;.com</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/beauty.jpg</image:loc>
+		<image:caption>Beauty doll</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/misumirank.jpg</image:loc>
+		<image:caption>MISUMI&#227;ƒ&#169;&#227;ƒ&#179;&#227;‚&#173;&#227;ƒ&#179;&#227;‚&#176;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/sougou.jpg</image:loc>
+		<image:caption>&#231;&#183;&#229;ˆ&#227;ƒ&#169;&#227;ƒ&#179;&#227;‚&#173;&#227;ƒ&#179;&#227;‚&#176;&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kaisya.jpg</image:loc>
+		<image:caption>&#228;&#188;š&#231;&#164;&#190;&#231;&#180;&#185;&#228;&#187;‹.com</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/syoukai.jpg</image:loc>
+		<image:caption>&#231;&#180;&#185;&#228;&#187;‹&#227;ƒ–&#227;ƒ&#173;&#227;‚&#176;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/jyohou.jpg</image:loc>
+		<image:caption>&#230;ƒ…&#229;&#160;&#177;&#231;™&#186;&#228;&#191;&#161;.com</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/kutikomi.jpg</image:loc>
+		<image:caption>&#229;‹&#230;‰‹&#227;&#171;&#229;&#163;&#227;‚&#179;&#227;ƒŸ&#231;&#180;&#185;&#228;&#187;‹</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/omowazu.jpg</image:loc>
+		<image:caption>&#230;€&#227;‚&#227;š&#231;&#180;&#185;&#228;&#187;‹.com</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/site.jpg</image:loc>
+		<image:caption>&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ&#231;&#180;&#185;&#228;&#187;‹.com</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/good.jpg</image:loc>
+		<image:caption>Good&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/nyuusan.jpg</image:loc>
+		<image:caption>&#227;ƒ˜&#227;ƒ&#171;&#227;‚&#185;&#227;‚&#177;&#227;‚&#162;DIV&#228;&#185;&#179;&#233;…&#184;&#232;Œ&#227;‚&#181;&#227;ƒ—&#227;ƒ&#170;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/jyousui.jpg</image:loc>
+		<image:caption>&#227;ƒ˜&#227;ƒ&#171;&#227;‚&#185;&#227;‚&#177;&#227;‚&#162;DIV&#230;&#181;„&#230;&#176;&#180;&#229;™&#168;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/ruku.jpg</image:loc>
+		<image:caption>&#227;ƒ&#171;&#227;ƒ&#179;&#227;ƒ–&#227;ƒ&#171;&#227;‚&#175;&#227;‚&#185;&#227;ƒ&#171;&#227;ƒ™&#227;ƒ&#171;&#227;‚&#185;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/amami.jpg</image:loc>
+		<image:caption>&#229;&#165;„&#231;&#190;Ž&#229;&#164;&#167;&#229;&#179;&#182;&#227;&#174;&#227;Š&#229;œŸ&#231;”&#163;&#229;&#186;—</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/d-one.jpg</image:loc>
+		<image:caption>D-one home</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://site-syuusyuu.com/imges/casa.jpg</image:loc>
+		<image:caption>&#227;‚&#171;&#227;ƒ&#188;&#227;‚&#181;&#227;‚&#164;&#227;ƒ&#227;‚&#185;</image:caption>
+	</image:image>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/design-camp.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/building.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/fashion.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/beauty.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/life.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/medical.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/food.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/blog.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/game.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://site-syuusyuu.com/corporete.html</loc>
+	<lastmod>2015-06-14</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+</urlset>

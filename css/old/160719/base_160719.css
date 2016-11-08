@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo;
+	font-size:62.5%;
+	background-color:#fff;
+}
+ul li{
+	list-style-type:none;
+}
+span.active{
+	border-bottom:2px solid red;
+}
+a{
+	text-decoration:none;
+	color:#18381a;
+}
+a:visited{
+	color:#18381a;
+}
+img{
+	vertical-align:bottom;
+}
+section ul li a img:hover{
+	opacity:0.6;
+}
+/*left-sideデザインここから*/
+.left-side{
+	float:left;
+	border:1px solid #b0b8bd;
+	width:270px;
+	margin-left:10px;
+	letter-spacing:2px;
+}
+/*headerデザインここから*/
+header{
+	border:2px solid #2980b9;
+	background-color:#fff;
+}
+header h1{
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size:2.5em;
+	background-color:#2980b9;
+}
+header h1 a{
+	color:#fff;
+	display:block;
+	width:270px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	letter-spacing:4px;
+}
+header h1 a:visited{
+	color:#fff;
+}
+/*article.left1デザインここから*/
+article.left1{
+	background-color:#fff;
+}
+article.left1 h1{
+	font-size:1.6em;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	letter-spacing:4px;
+}
+article.left1 h2{
+	font-size:1.3em;
+	color:#fff;
+	width:262px;
+	height:35px;
+	line-height:35px;
+	letter-spacing:1px;
+	padding-left:8px;
+	background-color:#2980b9;
+}
+article.left1 ul li{
+	min-height:25px;
+	background-image:url(../imges/corp-logo.jpg);
+	background-size:2%;
+	background-repeat:no-repeat;
+	background-position:20px 5px;
+}
+article.left1 ul li a{
+	display:block;
+	font-size:12px;
+	margin-top:5px;
+	padding-left:35px;
+}
+article.left1 ul li a:hover{
+	text-decoration:underline;
+}
+/*likeデザインここから*/
+.like{
+	border-top:1px dashed #b0b8bd;
+	margin-top:10px;
+	text-align:center;
+}
+p.like2{
+	margin-top:20px;
+}
+input{
+	margin-top:5px;
+	margin-bottom:20px;
+}
+/*sectionデザインここから*/
+section {
+	overflow:hidden;
+
+}
+section h1{
+	background-color:#fff;
+	letter-spacing:4px;
+	font-size:11px;
+	height:auto;
+	line-height:35px;
+	padding-left:20px;
+	margin-left:20px;
+	border:4px double #18381a;
+}
+section h1 span{
+	font-size:17px;
+}
+section ul{
+	float:left;
+	overflow:hidden;
+	margin:30px 0px 30px 30px;
+}
+section ul li{
+	border:1px solid #E8E8E8;
+	background-color:#fff;
+	width:200px;
+	height:300px;
+	margin:0px 20px 20px 0px;
+	float:left;
+}
+section ul li img{
+	display:block;
+}
+section ul li a{
+	display:block;
+	text-align:center;
+	margin-top:5px;
+}
+section ul li span{
+	display:block;
+	width:198px;
+	margin:5px;
+}
+section ul li.noimage span{
+	text-align:center;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+	line-height:300px;
+}
+/*footerデザインここから*/
+footer{
+	clear:both;
+	background-color:#2980b9;
+	text-align:center;
+	padding-bottom:10px;
+}
+footer p.copyright{
+	padding-top:10px;
+}
+footer p{
+	font-size:15px;
+	color:#fff;
+}
+footer a{
+	color:#fff;
+}
+footer a:visited{
+	color:#fff;
+}
+
+
+
+/*css3デザイン*/
+section ul li{
+	box-shadow:5px 5px 5px rgba(0,0,0,0.4);
+}
+
+
+
+
+/*レスポンシブデザイン表示領域が384px以下(iPhone4~5s)の場合に適用*/
+@media screen and (max-width: 384px) {
+.left-side{
+	width:99%;
+	margin:auto;
+	float:none;
+	text-align:center;
+}
+header h1 a{
+	width:100%;
+	margin:auto;
+}
+article.left1 h1,article.left1 h2{
+	width:99%;
+}
+article.left1 ul{
+	overflow:hidden;
+}
+article.left1 ul li{
+	background-image:none;
+	float:left;
+	width:50%;
+}
+article.left1 ul li a{
+	padding:0px 0px 4px 0px;
+	line-height:20px;
+	min-height:20px;
+}
+section{
+	margin-left:0px;
+	min-height:0px;
+	border-bottom:1px solid #fff;
+}
+section h1{
+	background-color:#fff;
+	letter-spacing:0px;
+	font-size:10px;
+	height:auto;
+	margin-left:0px;
+	padding-left:0px;
+	text-align:center;
+	border:4px double #18381a;
+}
+section h1 span{
+	font-size:12px;
+}
+section ul{
+	margin:0px;
+}
+section ul li{
+	margin:5px;
+	width:46%;
+	height:275px;
+}
+section ul li img{
+	width:100%;
+}
+section ul li span{
+	width:95%;
+}
+footer p.copyright{
+	font-size:105%;
+	padding-top:15px;
+	margin-top:30px;
+}
+footer p{
+	font-size:105%;
+	margin-top:10px;
+}
+}
+/*レスポンシブデザイン表示領域が384px以上800px以下(タブレット)の場合に適用*/
+@media screen and (min-width: 384px) and (max-width: 800px) {
+.left-side{
+	width:100%;
+	margin:auto;
+	float:none;
+	text-align:center;
+}
+header h1 a{
+	width:100%;
+	margin:auto;
+}
+
+article.left1 h1,article.left1 h2{
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	width:99%;
+	border-bottom:none;
+	margin:auto;
+}
+article.left1 ul{
+	overflow:hidden;
+}
+article.left1 ul li{
+	background-image:none;
+	float:left;
+	width:50%;
+}
+article.left1 ul li a{
+	padding:0px 0px 4px 0px;
+	line-height:20px;
+	min-height:20px;
+}
+section{
+	margin-left:0px;
+	min-height:0px;
+	border-bottom:1px solid #fff;
+}
+section h1{
+	letter-spacing:0px;
+	font-size:13px;
+	height:auto;
+	line-height:40px;
+	margin-left:0px;
+	padding-left:0px;
+	text-align:center;
+	background-color:#fff;
+}
+section h1 span a{
+	margin:auto;
+	color:#fff;
+}
+section ul{
+	margin:0px;
+	border:1px solid #000000;
+}
+section ul li{
+	margin:0px 20px 20px 20px;
+	height:270px;
+}
+section ul li img{
+	width:100%;
+}
+section ul li span{
+	width:95%;
+}
+footer p.copyright{
+	font-size:105%;
+	padding-top:15px;
+	margin-top:30px;
+}
+footer p{
+	font-size:105%;
+	margin-top:10px;
+}
+
+}

@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:'Noto Sans Japanese', sans-serif;
+	font-size:62.5%;
+	background-color:#fff;
+}
+
+ul li{
+	list-style-type:none;
+}
+span.active{
+	border-bottom:2px solid #F9F57A;
+}
+span2.active{
+	border-bottom:2px solid #95E8E3;
+}
+span3.active{
+	border-bottom:2px solid #F9825D;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:visited{
+	color:#5B5B5B;
+}
+img{
+	vertical-align:bottom;
+}
+section ul li a img:hover{
+	opacity:0.6;
+}
+
+img{
+	vertical-align:bottom;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*left-sideデザインここから*/
+.left-side{
+	float:left;
+	width:270px;
+	margin-left:10px;
+	letter-spacing:2px;
+}
+
+/*headerデザインここから*/
+header h1{
+	font-family:'Noto Sans Japanese', sans-serif;
+    font-weight: 900;
+	font-size:25px;
+	font-color: #5B5B5B
+}
+header h1 a{
+	color: #000;
+	display:block;
+	width:270px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	letter-spacing:4px;
+}
+header h1 a:hover{
+	color: #5B5B5B;
+}
+/*article.left1デザインここから*/
+article.left1{
+	background-color:#fff;
+}
+article.left1 h1{
+	font-size:15px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	letter-spacing:4px;
+	background-color:#000;
+	color: #fff
+}
+
+article.left1 h2{
+	font-size:15px;
+	color:#000;
+	width:262px;
+	height:45px;
+	line-height:60px;
+	letter-spacing:1px;
+	padding-left:8px;
+}
+
+
+article.left1 ul li a{
+	border-top:1px dashed #b0b8bd;
+	display:block;
+	font-size:12px;
+	font-weight: 700;
+	margin-top:10px;
+	padding-left:10px;
+	padding-top: 10px
+}
+article.left1 ul li a:hover{
+	color: #0387F4;
+}
+
+ .fa {
+　display: inline-block;
+　font: normal normal normal 14px/1 FontAwesome;
+　font-size: inherit;
+　text-rendering: auto;
+　-webkit-font-smoothing: antialiased;
+　-moz-osx-font-smoothing: grayscale;
+　transform: translate(0, 0);
+}
+
+.fa-gratipay:before {
+  content: "\f108"; 
+}
+
+/*likeデザインここから*/
+.like{
+	border-top:1px dashed #b0b8bd;
+	margin-top:10px;
+	text-align:center;
+}
+p.like2{
+	margin-top:20px;
+}
+input{
+	margin-top:5px;
+	margin-bottom:20px;
+}
+/*sectionデザインここから*/
+.firstview img{ padding-left: 30px;
+                width: 95%;
+				text-align:center}
+
+section {
+	overflow:hidden;
+
+}
+
+section ul{
+	float:left;
+	overflow:hidden;
+	margin:30px 0px 30px 30px;
+}
+section ul li{
+	border:1px solid #E8E8E8;
+	background-color:#fff;
+	width:200px;
+	height:300px;
+	margin:0px 20px 20px 0px;
+	float:left;
+}
+section ul li img{
+	display:block;
+}
+section ul li a{
+	display:block;
+	text-align:center;
+	margin-top:5px;
+}
+section ul li span{
+	display:block;
+	width:198px;
+	margin:5px;
+}
+section ul li.noimage span{
+	text-align:center;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+	line-height:300px;
+}
+/*footerデザインここから*/
+footer{
+	clear:both;
+	background-color:#000;
+	text-align:center;
+	padding-bottom:10px;
+}
+footer p.copyright{
+	padding-top:10px;
+}
+footer p{
+	font-size:15px;
+	color:#fff;
+}
+footer a{
+	color:#fff;
+}
+footer a:visited{
+	color:#fff;
+}
+
+
+
+/*css3デザイン*/
+section ul li{
+	box-shadow:5px 5px 5px rgba(0,0,0,0.4);
+}
+
+
+
+
+/*レスポンシブデザイン表示領域が384px以下(iPhone4~5s)の場合に適用*/
+@media screen and (max-width: 384px) {
+.left-side{
+	width:99%;
+	margin:auto;
+	float:none;
+	text-align:center;
+}
+header h1 a{
+	width:100%;
+	margin:auto;
+}
+article.left1 h1,article.left1 h2{
+	width:99%;
+}
+article.left1 ul{
+	overflow:hidden;
+}
+article.left1 ul li{
+	background-image:none;
+	float:left;
+	width:50%;
+}
+article.left1 ul li a{
+	padding:0px 0px 4px 0px;
+	line-height:20px;
+	min-height:20px;
+}
+
+.firstview img{ padding-left: 0px;
+                width: 100%;
+				text-align:center}
+
+section{
+	margin-left:0px;
+	min-height:0px;
+	border-bottom:1px solid #fff;
+}
+section h1{
+	background-color:#fff;
+	letter-spacing:0px;
+	font-size:10px;
+	height:auto;
+	margin-left:0px;
+	padding-left:0px;
+	text-align:center;
+	border:4px double #18381a;
+}
+section h1 span{
+	font-size:12px;
+}
+section ul{
+	margin:0px;
+}
+section ul li{
+	margin:5px;
+	width:46%;
+	height:275px;
+}
+section ul li img{
+	width:100%;
+}
+section ul li span{
+	width:95%;
+}
+footer p.copyright{
+	font-size:105%;
+	padding-top:15px;
+	margin-top:30px;
+}
+footer p{
+	font-size:105%;
+	margin-top:10px;
+}
+}
+/*レスポンシブデザイン表示領域が384px以上800px以下(タブレット)の場合に適用*/
+@media screen and (min-width: 384px) and (max-width: 800px) {
+.left-side{
+	width:100%;
+	margin:auto;
+	float:none;
+	text-align:center;
+}
+header h1 a{
+	width:100%;
+	margin:auto;
+}
+
+article.left1 h1,article.left1 h2{
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	width:99%;
+	border-bottom:none;
+	margin:auto;
+}
+article.left1 ul{
+	overflow:hidden;
+}
+article.left1 ul li{
+	background-image:none;
+	float:left;
+	width:50%;
+}
+article.left1 ul li a{
+	padding:0px 0px 4px 0px;
+	line-height:20px;
+	min-height:20px;
+}
+
+section{
+	margin-left:0px;
+	min-height:0px;
+	border-bottom:1px solid #fff;
+}
+section h1{
+	letter-spacing:0px;
+	font-size:13px;
+	height:auto;
+	line-height:40px;
+	margin-left:0px;
+	padding-left:0px;
+	text-align:center;
+	background-color:#fff;
+}
+section h1 span a{
+	margin:auto;
+	color:#fff;
+}
+section ul{
+	margin:0px
+}
+section ul li{
+	margin:20px 20px 20px 20px;
+	height:270px;
+}
+section ul li img{
+	width:100%;
+}
+section ul li span{
+	width:95%;
+}
+footer p.copyright{
+	font-size:105%;
+	padding-top:15px;
+	margin-top:30px;
+}
+footer p{
+	font-size:105%;
+	margin-top:10px;
+}
+
+}

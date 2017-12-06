@@ -14,29 +14,35 @@
 <body>
 <div class="left-side">
 <header>
-<h1><a href="index.html">サイト収集.com</a></h1>
+<h1><a href="index.php">サイト収集.com</a></h1>
 </header>
 <article class="left1 dis">
 <h1>【カテゴリー一覧】</h1>
 <h2>ホームページ・WEBデザイン</h2>
 <ul>
-  <li><a class="fa fa-desktop fa-2x" aria-hidden="true" href="index.html"> オンラインサービス</a></li>
-  <li><a class="fa fa-pencil fa-2x" aria-hidden="true" href="design-camp.html"> デザイン・デザイン会社</a></li>
-  <li><a class="fa fa-home fa-2x" aria-hidden="true" href="building.html"> 建築・不動産</a></li>
-  <li><a class="fa fa-diamond fa-2x" aria-hidden="true" href="fashion.html"> ファッション</a></li>
-  <li><a class="fa fa-smile-o fa-2x" aria-hidden="true" href="beauty.html"><span2 class="active"> ビューティー</span></a></li>
-  <li><a class="fa fa-car fa-2x" aria-hidden="true" href="life.html"> 生活・旅行・交通・ホテル</a></li>
-  <li><a class="fa fa-heartbeat fa-2x" aria-hidden="true" href="medical.html"> 医療</a></li>
-  <li><a class="fa fa-cutlery fa-2x" aria-hidden="true" href="food.html"> 飲食関連・食品</a></li>
-  <li><a class="fa fa-commenting fa-2x" aria-hidden="true" href="blog.html"> ポータル・ブログ</a></li>
-  <li><a class="fa fa-music fa-2x" aria-hidden="true" href="game.html"> ゲーム・音楽</a></li>
-  <li><a class="fa fa-building fa-2x" aria-hidden="true" href="corporete.html"> 企業・法人・コーポレートサイト</a></li>
-  <li><a class="fa fa-envelope fa-2x" aria-hidden="true" href="otoiawase.html"> お問い合わせ</a></li>
+  <li><a class="fa fa-desktop fa-2x" aria-hidden="true" href="index.php"> オンラインサービス</a></li>
+  <li><a class="fa fa-pencil fa-2x" aria-hidden="true" href="design-camp.php"> デザイン・デザイン会社</a></li>
+  <li><a class="fa fa-home fa-2x" aria-hidden="true" href="building.php"> 建築・不動産</a></li>
+  <li><a class="fa fa-diamond fa-2x" aria-hidden="true" href="fashion.php"> ファッション</a></li>
+  <li><a class="fa fa-smile-o fa-2x" aria-hidden="true" href="beauty.php"><span2 class="active"> ビューティー</span></a></li>
+  <li><a class="fa fa-car fa-2x" aria-hidden="true" href="life.php"> 生活・旅行・交通・ホテル</a></li>
+  <li><a class="fa fa-heartbeat fa-2x" aria-hidden="true" href="medical.php"> 医療</a></li>
+  <li><a class="fa fa-cutlery fa-2x" aria-hidden="true" href="food.php"> 飲食関連・食品</a></li>
+  <li><a class="fa fa-commenting fa-2x" aria-hidden="true" href="blog.php"> ポータル・ブログ</a></li>
+  <li><a class="fa fa-music fa-2x" aria-hidden="true" href="game.php"> ゲーム・音楽</a></li>
+  <li><a class="fa fa-building fa-2x" aria-hidden="true" href="corporete.php"> 企業・法人・コーポレートサイト</a></li>
+  <li><a class="fa fa-envelope fa-2x" aria-hidden="true" href="otoiawase.php"> お問い合わせ</a></li>
 </ul>
 <div class="like">
 <p class="like2"><img src="imges/like-bottom.gif" alt="お気に入り"></p>
 <input type="button" rel='sidebar' value="お気に入りに登録" onClick="toFavorite(location.href,document.title);">
 </div><!--like終わり-->
+
+<!--ブログ埋め込み始め-->
+	<div class="news">
+	<?php include( $_SERVER['DOCUMENT_ROOT'] . '/news.php'); ?>
+</div>
+	
 </article>
 </div><!--left-side終わり-->
 <section>

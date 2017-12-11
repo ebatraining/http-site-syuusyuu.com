@@ -58,7 +58,7 @@ header h1{
 	font-family:'Noto Sans Japanese', sans-serif;
     font-weight: 900;
 	font-size:25px;
-	font-color: #5B5B5B
+	color: #5B5B5B
 }
 header h1 a{
 	color: #000;
@@ -138,8 +138,7 @@ input{
 	margin-bottom:20px;
 }
 /*sectionデザインここから*/
-.firstview img{ padding-left: 30px;
-                width: 95%;
+.firstview img{
 				text-align:center}
 
 section {
@@ -150,18 +149,11 @@ section {
 section ul{
 	float:left;
 	overflow:hidden;
-	margin:30px 0px 30px 30px;
 }
 section ul li{
 	border:1px solid #E8E8E8;
 	background-color:#fff;
-	width:200px;
-	height:300px;
-	margin:0px 20px 20px 0px;
 	float:left;
-}
-section ul li img{
-	display:block;
 }
 section ul li a{
 	display:block;
@@ -170,7 +162,6 @@ section ul li a{
 }
 section ul li span{
 	display:block;
-	width:198px;
 	margin:5px;
 }
 section ul li.noimage span{
@@ -414,5 +405,28 @@ header{
 			width:270px;
 			margin-left:10px;
 	}
+	h1{
+	 margin:5%;
+	}
+		.firstview img{
+			 padding-left: 30px;
+	    	width: 95%;
+				text-align:center
+					}
+			section ul{
+					margin:30px 0px 30px 30px;
 
+					}
+			section ul li{
+					width:200px;
+					height:300px;
+					margin:0px 20px 20px 0px;
+
+					}
+					section ul li img{
+						display:block;
+					}
+					section ul li span{
+						width:198px;
+					}
 }

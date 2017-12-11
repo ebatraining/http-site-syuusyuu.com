@@ -9,20 +9,66 @@
 <link href="css/base.css" rel="stylesheet" type="text/css" media="all">
 <script type="text/javascript" src="js/like-button.js"></script>
 <script type="text/javascript" src="js/slow_hover.js"></script>
-
+<!-- ドロワーメニュー用スクリプトここから -->
+	<!-- drawer.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
+	<!-- jquery & iScroll -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+	<!-- drawer.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.drawer').drawer();
+		});
+	</script>
+<!--ここまで-->
 </head>
 <link href="font-awesome.min.css" rel="stylesheet">
 
 <body>
-
-
-<div class="left-side">
-
 <header>
-<h1><a href="index.php">サイト収集.com</a></h1>
+
+<h2 id="sp-title"><a href="index.php">サイト収集.com</a></h2>
+<!--スマホ用ドロワーメニューここから-->
+<div id="sp-menu" class="drawer drawer--left">
+	<div role="banner">
+		<button type="button" class="drawer-toggle drawer-hamburger">
+			<span class="sr-only">toggle navigation</span>
+			<span class="drawer-hamburger-icon"></span>
+	</button>
+	<nav class="drawer-nav" role="navigation">
+		<article class="left1 dis">
+			<h1>カテゴリー一覧</h1>
+			<h2>ホームページ・WEBデザイン</h2>
+			<ul class="drawer-menu">
+				<li> <span class="active"><a class="fa fa-desktop fa-2x" aria-hidden="true" href="index.php"> <span class="active">オンラインサービス</span></a></span></li>
+				<li><a class="fa fa-pencil fa-2x" aria-hidden="true" href="design-camp.php"> デザイン・デザイン会社</a></li>
+				<li><a class="fa fa-home fa-2x" aria-hidden="true" href="building.php"> 建築・不動産</a></li>
+				<li><a class="fa fa-diamond fa-2x" aria-hidden="true" href="fashion.php"> ファッション</a></li>
+				<li><a class="fa fa-smile-o fa-2x" aria-hidden="true" href="beauty.php"> ビューティー</a></li>
+				<li><a class="fa fa-car fa-2x" aria-hidden="true" href="life.php"> 生活・旅行・交通・ホテル</a></li>
+				<li><a class="fa fa-heartbeat fa-2x" aria-hidden="true" href="medical.php"> 医療</a></li>
+				<li><a class="fa fa-cutlery fa-2x" aria-hidden="true" href="food.php"> 飲食関連・食品</a></li>
+				<li><a class="fa fa-commenting fa-2x" aria-hidden="true" href="blog.php"> ポータル・ブログ</a></li>
+				<li><a class="fa fa-music fa-2x" aria-hidden="true" href="game.php"> ゲーム・音楽</a></li>
+				<li><a class="fa fa-building fa-2x" aria-hidden="true" href="corporete.php"> 企業・法人・コーポレートサイト</a></li>
+				<li><a class="fa fa-envelope fa-2x" aria-hidden="true" href="otoiawase.php"> お問い合わせ</a></li>
+			</ul>
+			<div class="like">
+				<p class="like2"><img src="imges/like-bottom.gif" alt="お気に入り"></p>
+				<input type="button" rel="sidebar" value="お気に入りに登録" onClick="toFavorite(location.href,document.title);">
+			</div>
+		</nav>
+	</div>
+</div>
+<!--ここまで-->
 </header>
 
+<div class="left-side">
+<h1 id="pc-title"><a href="index.php">サイト収集.com</a></h1>
 <article class="left1 dis">
+	<div id="pc-menu">
 	<h1>カテゴリー一覧</h1>
 	<h2>ホームページ・WEBデザイン</h2>
 	<ul>
@@ -43,6 +89,7 @@
 		<p class="like2"><img src="imges/like-bottom.gif" alt="お気に入り"></p>
 		<input type="button" rel="sidebar" value="お気に入りに登録" onClick="toFavorite(location.href,document.title);">
 	</div><!--like終わり-->
+</div>
 
 	<!--ブログ埋め込み始め-->
 	<div class="news">
@@ -50,6 +97,7 @@
 	</div>
 </article>
 </div><!--left-side終わり-->
+
 
 
 <section>

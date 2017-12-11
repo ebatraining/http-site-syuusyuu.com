@@ -27,6 +27,7 @@
 <link href="font-awesome.min.css" rel="stylesheet">
 
 <body>
+<main>
 <header>
 
 <h2 id="sp-title"><a href="index.php">サイト収集.com</a></h2>
@@ -263,6 +264,7 @@
 <li class="noimage"><span>coming soon</span></li>
 </ul>
 </section>
+</main>
 <footer>
 <p class="copyright">Copyright(C)2015 <a href="index.html">サイト収集.com</a>,Inc. All Rights Reserved.</p>
 <p><a href="./">【 TOPページ 】</a><a href="http://ebacorp.jp/kaisyagaiyou.html" target="_blank">【 運営会社 】</a><a href="http://ebacorp.jp/privacy.html" target="_blank">【 プライバシーポリシー 】</a></p>

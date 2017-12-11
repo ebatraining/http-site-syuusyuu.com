@@ -54,24 +54,27 @@ img{
 }
 
 /*headerデザインここから*/
-header h1{
+#sp-title,#pc-title{
 	font-family:'Noto Sans Japanese', sans-serif;
-    font-weight: 900;
+	font-weight: 900;
 	font-size:25px;
-	color: #5B5B5B
+	color: #5B5B5B;
+	text-align:center;
 }
+
+/*
 header h1 a{
 	color: #000;
 	display:block;
-	width:270px;
-	height:80px;
-	line-height:80px;
-	text-align:center;
+	width:100%;
 	letter-spacing:4px;
 }
 header h1 a:hover{
 	color: #5B5B5B;
 }
+*/
+
+
 /*article.left1デザインここから*/
 article.left1{
 	background-color:#fff;
@@ -363,7 +366,6 @@ footer p{
 	#pc-title{
 		display: none;
 	}
-}
 main{
 	display:-webkit-box;
 	display: -webkit-flex;
@@ -391,7 +393,36 @@ header{
 	-webkit-order:2;
 	order:2;
 }
+header,.firstview img,.left-side{
+	width: 100%;
+}
+.firstview img{
+	margin-bottom: 5%;
+}
+		section ul li{
+			width:48%;
+			height:300px;
+			margin:0 0% 5% 1%;
+		}
 
+		h2,.drawer-menu li{
+			text-align: left;
+		}
+
+		#sp-title{
+			margin:5% 0;
+		}
+		section img{
+			width:100%;
+		}
+		footer{
+			margin-top: 15%;
+		}
+		footer p{
+			font-size:13px;
+			margin: 3% 0;
+		}
+}
 @media screen and ( min-width:480px )/*PC他*/
 {
 	#sp-menu{
@@ -400,13 +431,13 @@ header{
 	#sp-title{
 		display: none;
 	}
+	#pc-title{
+	 margin:10% 5%;
+	}
 	.left-side{
 		float:left;
 			width:270px;
 			margin-left:10px;
-	}
-	h1{
-	 margin:5%;
 	}
 		.firstview img{
 			 padding-left: 30px;

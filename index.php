@@ -8,7 +8,7 @@
 <title>サイト収集.com</title>
 <link href="css/base.css" rel="stylesheet" type="text/css" media="all">
 <script type="text/javascript" src="js/like-button.js"></script>
-<script type="text/javascript" src="js/slow_hover.js"></script>
+<!--<script type="text/javascript" src="js/slow_hover.js"></script>-->
 <!-- ドロワーメニュー用スクリプトここから -->
 	<!-- drawer.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">

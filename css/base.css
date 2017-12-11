@@ -6,7 +6,7 @@
 }
 body{
 	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
-	font-size:62.5%;
+
 	background-color:#fff;
 }
 
@@ -366,6 +366,9 @@ footer p{
 	#pc-title{
 		display: none;
 	}
+	body{
+		font-size: 80%;
+	}
 main{
 	display:-webkit-box;
 	display: -webkit-flex;
@@ -401,7 +404,7 @@ header,.firstview img,.left-side{
 }
 		section ul li{
 			width:48%;
-			height:300px;
+			height:350px;
 			margin:0 0% 5% 1%;
 		}
 
@@ -413,7 +416,7 @@ header,.firstview img,.left-side{
 			margin:5% 0;
 		}
 		section img{
-			width:100%;
+			width:95%;
 		}
 		footer{
 			margin-top: 15%;
@@ -433,6 +436,8 @@ header,.firstview img,.left-side{
 	}
 	#pc-title{
 	 margin:10% 5%;
+	}
+	body{font-size:62.5%;
 	}
 	.left-side{
 		float:left;

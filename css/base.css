@@ -50,9 +50,6 @@ img{
 
 /*left-sideデザインここから*/
 .left-side{
-	float:left;
-	width:270px;
-	margin-left:10px;
 	letter-spacing:2px;
 }
 
@@ -215,7 +212,7 @@ section ul li{
 
 
 /*レスポンシブデザイン表示領域が384px以下(iPhone4~5s)の場合に適用*/
-@media screen and (max-width: 384px) {
+/*@media screen and (max-width: 384px) {
 .left-side{
 	width:99%;
 	margin:auto;
@@ -290,7 +287,7 @@ footer p{
 }
 }
 /*レスポンシブデザイン表示領域が384px以上800px以下(タブレット)の場合に適用*/
-@media screen and (min-width: 384px) and (max-width: 800px) {
+/*@media screen and (min-width: 384px) and (max-width: 800px) {
 .left-side{
 	width:100%;
 	margin:auto;
@@ -365,5 +362,31 @@ footer p{
 	font-size:105%;
 	margin-top:10px;
 }
+
+}*/
+@media screen and ( max-width:479px )/*スマホ*/
+{
+	#pc-menu{
+		display: none;
+	}
+
+	#pc-title{
+		display: none;
+	}
+}
+
+@media screen and ( min-width:480px )/*PC他*/
+{
+	#sp-menu{
+		display: none;
+	}
+	#sp-title{
+		display: none;
+	}
+	.left-side{
+		float:left;
+			width:270px;
+			margin-left:10px;
+	}
 
 }

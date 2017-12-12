@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="keywords" content="サイト収集.com,サイト 一覧,ゲーム,音楽,サイト紹介,ホームページ 一覧,ホームページ,ホームページ紹介,サイトデザイン">
 <meta name="description" content="サイト収集.comでは「ゲーム・音楽」などの様々なサイト(ホームページ)を収集し、ご紹介させていただいております。ご興味のあるサイトがございましたら、ぜひ各リンクをクリックしてみてください。">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>サイト収集.com | ゲーム・音楽</title>
 <link href="css/base.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/like-button.js"></script>
@@ -65,6 +65,7 @@
     </div>
     <!--ここまで-->
 </header>
+
 <div class="left-side">
 <h1 id="pc-title"><a href="index.php">サイト収集.com</a></h1>
 <article class="left1 dis">
@@ -94,9 +95,9 @@
 <div class="news">
 	<?php include( $_SERVER['DOCUMENT_ROOT'] . '/news.php'); ?>
 </div>
-
 </article>
 </div><!--left-side終わり-->
+
 <section>
 <div class="firstview">
     <img src="imges/10.jpg">
@@ -115,6 +116,7 @@
 <li class="noimage"><span>coming soon</span></li>
 </ul>
 </section>
+
 </main>
 <footer>
 <p class="copyright">Copyright(C)2015 <a href="index.html">サイト収集.com</a>,Inc. All Rights Reserved.</p>

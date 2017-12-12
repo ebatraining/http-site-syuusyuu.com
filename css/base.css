@@ -9,7 +9,6 @@ body{
 	font-size:62.5%;
 	background-color:#fff;
 }
-
 ul li{
 	list-style-type:none;
 }
@@ -35,11 +34,9 @@ img{
 section ul li a img:hover{
 	opacity:0.6;
 }
-
 img{
 	vertical-align:bottom;
 }
-
 @font-face {
   font-family: 'FontAwesome';
   src: url('fonts/fontawesome-webfont.eot?v=4.3.0');
@@ -56,7 +53,7 @@ img{
 	margin-left:10px;
 }
 
-/*header・タイトルデザインここから*/
+/*ヘッダー・h1デザインここから*/
 #sp-title,#pc-title{
 	font-family:'Noto Sans Japanese', sans-serif;
 	font-weight: 900;
@@ -90,7 +87,6 @@ article.left1 h1{
 	background-color:#000;
 	color: #fff
 }
-
 article.left1 h2{
 	font-size:15px;
 	color:#000;
@@ -100,8 +96,6 @@ article.left1 h2{
 	letter-spacing:1px;
 	padding-left:8px;
 }
-
-
 article.left1 ul li a{
 	border-top:1px dashed #b0b8bd;
 	display:block;
@@ -114,7 +108,6 @@ article.left1 ul li a{
 article.left1 ul li a:hover{
 	color: #0387F4;
 }
-
  .fa {
 　display: inline-block;
 　font: normal normal normal 14px/1 FontAwesome;
@@ -124,7 +117,6 @@ article.left1 ul li a:hover{
 　-moz-osx-font-smoothing: grayscale;
 　transform: translate(0, 0);
 }
-
 .fa-gratipay:before {
   content: "\f108";
 }
@@ -142,16 +134,15 @@ input{
 	margin-top:5px;
 	margin-bottom:20px;
 }
+
 /*sectionデザインここから*/
 .firstview img{
-				text-align:center;
-				width: 95%;
+	text-align:center;
+	width: 95%;
 }
-
 section {
 	overflow:hidden;
 }
-
 section ul{
 	float:left;
 	overflow:hidden;
@@ -180,6 +171,7 @@ section ul li.noimage span{
 section ul li img{
 	display:block;
 }
+
 /*footerデザインここから*/
 footer{
 	clear:both;
@@ -205,7 +197,7 @@ footer a:visited{
 
 
 
-
+/*最初に設定されていたメディアクエリここから*/
 
 /*レスポンシブデザイン表示領域が384px以下(iPhone4~5s)の場合に適用*/
 /*@media screen and (max-width: 384px) {
@@ -282,61 +274,63 @@ footer p{
 	margin-top:10px;
 }
 }
+
 /*レスポンシブデザイン表示領域が480px以上800px以下(タブレット)の場合に適用*/
 @media screen and (min-width: 480px) and (max-width: 800px) {
+	body{
+		font-size:75%;
+	}
 	#sp-menu{
 		display: none;
 	}
 	#sp-title{
 		display: none;
 	}
-	body{font-size:75%;
+	#pc-menu{
+		text-align:center;
 	}
-.left-side{
-	width:90%;
-	margin:auto;
-	float:none;
-}
-#pc-menu{
-	text-align:center;
-}
-#pc-title{
-	width:100%;
-	margin:5% 0;
-}
-article.left1 h1,article.left1 h2{
-	font-size:20px;
-	height:40px;
-	line-height:40px;
-	width:99%;
-	border-bottom:none;
-	margin:auto;
-}
-article.left1 ul{
-	overflow:hidden;
-}
-article.left1 ul li{
-	background-image:none;
-	float:left;
-	width:50%;
-}
-article.left1 ul li a{
-	padding:0px 0px 4px 0px;
-	line-height:20px;
-	min-height:20px;
-}
-.firstview img{
-	width:100%;
-	margin-top: 5%;
-}
-section ul li{
-	width:30%;
-	height:350px;
-	margin:5% 0 0 2%;
-}
-section ul li img{
-	width:90%;
-}
+	#pc-title{
+		width:100%;
+		margin:5% 0;
+	}
+	.left-side{
+		width:90%;
+		margin:auto;
+		float:none;
+	}
+	article.left1 h1,article.left1 h2{
+		font-size:20px;
+		height:40px;
+		line-height:40px;
+		width:99%;
+		border-bottom:none;
+		margin:auto;
+	}
+	article.left1 ul{
+		overflow:hidden;
+	}
+	article.left1 ul li{
+		background-image:none;
+		float:left;
+		width:50%;
+	}
+	article.left1 ul li a{
+		padding:0px 0px 4px 0px;
+		line-height:20px;
+		min-height:20px;
+	}
+	.firstview img{
+		width:100%;
+		margin-top: 5%;
+	}
+	section ul li{
+		width:30%;
+		height:350px;
+		margin:5% 0 0 2%;
+	}
+	section ul li img{
+		width:90%;
+	}
 /*section{
 	margin-left:0px;
 	min-height:0px;
@@ -369,17 +363,20 @@ section ul li img{
 section ul li span{
 	width:95%;
 }*/
-footer p.copyright{
-	font-size:105%;
-	padding-top:15px;
-	margin-top:30px;
+	footer p.copyright{
+		font-size:105%;
+		padding-top:15px;
+		margin-top:30px;
+	}
+	footer p{
+		font-size:105%;
+		margin-top:10px;
+	}
 }
-footer p{
-	font-size:105%;
-	margin-top:10px;
-}
-}
+/*ここまで*/
 
+
+/*新しく設定したメディアクエリここから*/
 @media screen and ( max-width:479px )/*スマホ*/
 {
 	#pc-menu{
@@ -391,63 +388,62 @@ footer p{
 	body{
 		font-size: 80%;
 	}
-main{
-	display:-webkit-box;
-	display: -webkit-flex;
-	display:-ms-flexbox;
-	display: flex;
-	-webkit-flex-wrap:wrap;
-	-ms-flex-wrap:wrap;
-	flex-wrap:wrap;
-}
-header{
-	-webkit-box-ordinal-group:0;
- -ms-flex-order:0;
- -webkit-order:0;
- order:0;
-}
+	main{
+		display:-webkit-box;
+		display: -webkit-flex;
+		display:-ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap:wrap;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+	}
+	header{
+		-webkit-box-ordinal-group:0;
+ 		-ms-flex-order:0;
+ 		-webkit-order:0;
+ 		order:0;
+	}
+	#sp-title{
+		margin:5% 0;
+	}
+	h2,.drawer-menu li{
+		text-align: left;
+	}
+	.left-side{
+		-webkit-box-ordinal-group:2;
+		-ms-flex-order:2;
+		-webkit-order:2;
+		order:2;
+	}
+	header,.firstview img,.left-side{
+		width: 100%;
+	}
+	.firstview img{
+		margin-bottom: 5%;
+	}
 	section{
-	-webkit-box-ordinal-group:1;
- -ms-flex-order:1;
- -webkit-order:1;
- order:1;
+		-webkit-box-ordinal-group:1;
+		-ms-flex-order:1;
+		-webkit-order:1;
+		order:1;
+	}
+	section ul li{
+		width:48%;
+		height:350px;
+		margin:0 0% 5% 1%;
+	}
+	section img{
+		width:95%;
+	}
+	footer{
+		margin-top: 15%;
+	}
+	footer p{
+		font-size:13px;
+		margin: 3% 0;
+	}
 }
-.left-side{
-	-webkit-box-ordinal-group:2;
-	-ms-flex-order:2;
-	-webkit-order:2;
-	order:2;
-}
-header,.firstview img,.left-side{
-	width: 100%;
-}
-.firstview img{
-	margin-bottom: 5%;
-}
-		section ul li{
-			width:48%;
-			height:350px;
-			margin:0 0% 5% 1%;
-		}
 
-		h2,.drawer-menu li{
-			text-align: left;
-		}
-
-		#sp-title{
-			margin:5% 0;
-		}
-		section img{
-			width:95%;
-		}
-		footer{
-			margin-top: 15%;
-		}
-		footer p{
-			font-size:13px;
-			margin: 3% 0;
-		}
-}
 @media screen and ( min-width:801px )/*PC*/
 {
 	#sp-menu{
@@ -456,25 +452,22 @@ header,.firstview img,.left-side{
 	#sp-title{
 		display: none;
 	}
-		.firstview img{
-			 padding-left: 30px;
-					}
-			section ul{
-					margin:30px 0px 30px 30px;
-
-					}
-			section ul li{
-					width:200px;
-					height:300px;
-					margin:0px 20px 20px 0px;
-
-					}
-
-					section ul li span{
-						width:198px;
-					}
-					/*css3デザイン*/
-					section ul li{
-						box-shadow:5px 5px 5px rgba(0,0,0,0.4);
-					}
+	.firstview img{
+	 	padding-left: 30px;
+	}
+	section ul{
+		margin:30px 0px 30px 30px;
+	}
+	section ul li{
+		width:200px;
+		height:300px;
+		margin:0px 20px 20px 0px;
+	}
+	section ul li span{
+		width:198px;
+	}
+	/*css3デザイン*/
+	section ul li{
+		box-shadow:5px 5px 5px rgba(0,0,0,0.4);
+	}
 }

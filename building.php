@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="keywords" content="サイト収集.com,サイト 一覧,サイト紹介,ホームページ 一覧,建築,不動産,ホームページ,ホームページ紹介,サイトデザイン">
 <meta name="description" content="サイト収集.comでは「建築・不動産」などの様々なサイト(ホームページ)を収集し、ご紹介させていただいております。ご興味のあるサイトがございましたら、ぜひ各リンクをクリックしてみてください。">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>サイト収集.com | 建築・不動産</title>
 <link href="css/base.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/like-button.js"></script>
@@ -28,7 +28,6 @@
 
 <body>
 <main>
-
 <header>
   <h2 id="sp-title"><a href="index.php">サイト収集.com</a></h2>
   <!--スマホ用ドロワーメニューここから-->
@@ -117,6 +116,7 @@
 <li class="noimage"><span>coming soon</span></li>
 </ul>
 </section>
+
 </main>
 <footer>
 <p class="copyright">Copyright(C)2015 <a href="index.html">サイト収集.com</a>,Inc. All Rights Reserved.</p>

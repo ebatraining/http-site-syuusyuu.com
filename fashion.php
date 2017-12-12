@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="keywords" content="サイト収集.com,サイト 一覧,サイト紹介,ファッション,ホームページ 一覧,ホームページ,ホームページ紹介,サイトデザイン">
 <meta name="description" content="サイト収集.comでは「ファッション」などの様々なサイト(ホームページ)を収集し、ご紹介させていただいております。ご興味のあるサイトがございましたら、ぜひ各リンクをクリックしてみてください。">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>サイト収集.com | ファッション</title>
 <link href="css/base.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/like-button.js"></script>
@@ -65,6 +65,7 @@
   </div>
   <!--ここまで-->
 </header>
+
 <div class="left-side">
 <h1 id="pc-title"><a href="index.php">サイト収集.com</a></h1>
 <article class="left1 dis">
@@ -95,9 +96,9 @@
 <div class="news">
 	<?php include( $_SERVER['DOCUMENT_ROOT'] . '/news.php'); ?>
 </div>
-
 </article>
 </div><!--left-side終わり-->
+
 <section>
 <div class="firstview">
     <img src="imges/04.jpg">
@@ -114,6 +115,7 @@
 </ul>
 </section>
 </main>
+
 <footer>
 <p class="copyright">Copyright(C)2015 <a href="index.html">サイト収集.com</a>,Inc. All Rights Reserved.</p>
 <p><a href="./">【 TOPページ 】</a><a href="http://ebacorp.jp/kaisyagaiyou.html" target="_blank">【 運営会社 】</a><a href="http://ebacorp.jp/privacy.html" target="_blank">【 プライバシーポリシー 】</a></p>

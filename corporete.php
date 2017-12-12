@@ -65,6 +65,7 @@
     </div>
     <!--ここまで-->
 </header>
+
 <div class="left-side">
 <h1 id="pc-title"><a href="index.php">サイト収集.com</a></h1>
 <article class="left1 dis">
@@ -94,9 +95,9 @@
 <div class="news">
 	<?php include( $_SERVER['DOCUMENT_ROOT'] . '/news.php'); ?>
 </div>
-
 </article>
 </div><!--left-side終わり-->
+
 <section>
 <div class="firstview">
     <img src="imges/11.jpg">
@@ -125,6 +126,7 @@
 <li class="noimage"><span>coming soon</span></li>
 </ul>
 </section>
+
 </main>
 <footer>
 <p class="copyright">Copyright(C)2015 <a href="index.html">サイト収集.com</a>,Inc. All Rights Reserved.</p>
